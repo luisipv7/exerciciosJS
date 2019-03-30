@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DOM-getElementbyId</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>-->
+</head>
+<body>
+    <!--
+        *** Seletores JS por DIV id=""***
+
+        <div id="time-pequeno">inter</div>
+    <div id="time-grande">gremio</div>
+
+-->
+<!--
+     *** Seletores JS por DIV class=""***
+
+    <div class="urso">ruuu</div>
+    <div class="sherek">faz o urruuu</div>
+    
+    -->
+
+<!--
+    Seletor de TAG's
+    <br>
+    <form action=""></form>
+    <button>oi</button>
+
+    -->
+
+
+    <!--
+        Seletor por query
+    <div id="teste1">1</div>
+    <div class="teste2">2</div>
+    <p class="teste3">teste3</p>
+-->
+
+    <div class="teste">1</div>
+    <div class="teste">2</div>
+    <div class="teste">3</div>
+
+<div id="pai">
+        <div class="filho">1</div>
+        <div class="filho">2</div>
+        <div class="filho">3</div>
+</div>
+
+<p>oi</p>
+<p>olá</p>
+    <script>
+
+        //Seletor por ID
+        ///console.log(document.getElementById("time-pequeno").innerHTML
+        //);
+   
+        //Seletor por CLASS
+        //console.log(
+          //  document.getElementsByClassName("urso")[0]
+        //);
+        
+
+        //Seletor por TAG's
+        //console.log(
+
+        //document.getElementsByTagName("button")[0].innerHTML
+
+       // );
+        
+
+      //Seletor por jQuery
+       /*console.log(
+           document.querySelector("p.teste3")
+       );
+       */
+      console.log(
+          //document.querySelectorAll(".teste")
+           document.getElementById("pai").querySelectorAll(".filho") 
+          );
+      
+
+       
+
+     
+    </script>
+</body>
+</html>
